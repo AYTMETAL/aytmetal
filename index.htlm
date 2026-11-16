@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AYT METAL | Sakarya Geyve</title>
+<meta name="description" content="AYT METAL Sakarya Geyve demir doğrama, ferforje, lazer kapı, çim çit ve panel çit hizmetleri.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#111;color:white;font-family:Arial,sans-serif}
+header{background:#080808;padding:25px;text-align:center;border-bottom:3px solid #c58b28}
+h1{font-size:42px;color:#d9a441;margin:5px}
+header p{letter-spacing:3px}
+.hero{padding:75px 20px;text-align:center;background:linear-gradient(120deg,#222,#080808)}
+.hero h2{font-size:34px}
+.hero p{color:#ccc;font-size:18px}
+.btn{display:inline-block;background:#c58b28;color:#111;padding:15px 25px;text-decoration:none;font-weight:bold;border-radius:5px;margin:10px}
+section{padding:35px 20px;text-align:center}
+h2{color:#d9a441}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;max-width:900px;margin:auto}
+.item{background:#252525;padding:25px 10px;border:1px solid #555;border-radius:7px;font-weight:bold}
+.contact{background:#202020}
+footer{background:#080808;padding:20px;text-align:center;color:#aaa}
+</style>
+</head>
+<body>
+<header>
+<h1>AYT METAL</h1>
+<p>DEMİR DOĞRAMA • FERFORJE • ÇELİK</p>
+</header>
+<div class="hero">
+<h2>METALİN SANATA DÖNÜŞTÜĞÜ ADRES</h2>
+<p>Sağlam işçilik, kaliteli malzeme, güçlü tasarım.</p>
+<p>Sakarya / Geyve</p>
+<a class="btn" href="tel:05529355541">HEMEN ARA</a>
+<a class="btn" href="https://wa.me/905529355541">WHATSAPP</a>
+</div>
+<section>
+<h2>HİZMETLERİMİZ</h2>
+<div class="services">
+<div class="item">Lazer Kapı</div>
+<div class="item">Ferforje Kapı</div>
+<div class="item">Sundurma</div>
+<div class="item">Bungalov</div>
+<div class="item">Çim Çit</div>
+<div class="item">Panel Çit</div>
+<div class="item">Panjur Çit</div>
+<div class="item">Demir Doğrama</div>
+</div>
+</section>
+<section class="contact">
+<h2>BİZE ULAŞIN</h2>
+<p>AYT METAL – Sakarya / Geyve</p>
+<p>Telefon: 0552 935 55 41</p>
+<a class="btn" href="tel:05529355541">TELEFON ET</a>
+<a class="btn" href="https://wa.me/905529355541">WHATSAPP'TAN YAZ</a>
+</section>
+<footer>© 2026 AYT METAL – Tüm hakları saklıdır.</footer>
+</body>
+</html>

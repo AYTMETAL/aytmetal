@@ -3,132 +3,94 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AYT METAL | Sakarya Geyve</title>
-<meta name="description" content="AYT METAL Sakarya Geyve. Demir doğrama, ferforje, lazer kapı, çelik ve çit sistemleri.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AYT METAL | Sakarya ve Kocaeli</title>
+<meta name="description" content="AYT METAL. Sakarya ve Kocaeli genelinde demir doğrama, ferforje, lazer kapı, çelik ve çit sistemleri.">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Arial,sans-serif;background:#111;color:#fff;line-height:1.6}
-header{background:#080808;padding:20px;text-align:center;border-bottom:3px solid #d89b24}
-.logo{font-size:34px;font-weight:900;letter-spacing:3px;color:#e5a72e}
+html{scroll-behavior:smooth}
+body{background:#101010;color:white;font-family:Arial,sans-serif;line-height:1.7}
+header{background:#080808;padding:24px 15px;text-align:center;border-bottom:3px solid #d9a329}
+.logo{font-size:39px;font-weight:900;letter-spacing:4px;color:#e6ae37}
 .logo span{color:white}
-nav{padding:12px;text-align:center;background:#191919}
-nav a{color:white;text-decoration:none;margin:0 10px;font-size:14px}
-.hero{padding:85px 20px;text-align:center;background:linear-gradient(120deg,#111,#343434)}
-.hero h1{font-size:42px;color:#e5a72e;margin-bottom:15px}
-.hero p{font-size:19px;margin-bottom:25px}
-.btn{display:inline-block;background:#d99b27;color:#111;padding:13px 25px;text-decoration:none;font-weight:bold;border-radius:5px}
-section{padding:55px 20px;text-align:center}
-h2{font-size:29px;color:#e5a72e;margin-bottom:25px}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1000px;margin:auto}
-.service{background:#242424;padding:28px 15px;border-bottom:3px solid #d99b27;border-radius:6px}
-.service h3{font-size:20px;margin-bottom:8px}
+header p{letter-spacing:2px;font-size:12px}
+nav{background:#1c1c1c;padding:15px;text-align:center}
+nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
+.hero{padding:90px 20px;text-align:center;background:linear-gradient(130deg,#080808,#343434)}
+.hero h1{font-size:42px;color:#e6ae37;line-height:1.2}
+.hero p{font-size:18px;margin:20px auto;max-width:650px}
+.btn{display:inline-block;background:#d9a329;color:#111;padding:13px 25px;text-decoration:none;font-weight:bold;border-radius:5px;margin:8px}
+section{padding:55px 18px;text-align:center}
+h2{font-size:30px;color:#e6ae37;margin-bottom:25px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:17px;max-width:1050px;margin:auto}
+.service{background:#242424;padding:28px 15px;border-bottom:3px solid #d9a329;border-radius:7px}
+.service h3{color:#e6ae37;font-size:21px}
 .service p{color:#ccc;font-size:14px}
 .about{background:#1b1b1b}
-.about p{max-width:750px;margin:auto;color:#ddd;font-size:17px}
-.contact{background:#292929}
-.contact p{margin:10px;font-size:17px}
-footer{background:#080808;text-align:center;padding:22px;color:#aaa}
-footer strong{color:#e5a72e}
-.whatsapp{position:fixed;bottom:20px;right:18px;background:#20b85a;color:white;padding:13px 18px;border-radius:30px;text-decoration:none;font-weight:bold}
-@media(max-width:500px){
-.hero h1{font-size:32px}
-nav a{margin:0 5px;font-size:12px}
-}
+.about p{max-width:780px;margin:auto;color:#ddd;font-size:17px}
+.regions{background:#111}
+.regions div{display:inline-block;background:#252525;border:1px solid #d9a329;padding:18px 30px;margin:8px;border-radius:6px;font-size:20px;font-weight:bold}
+.contact{background:#252525}
+.contact p{font-size:18px;margin:8px}
+footer{background:#080808;text-align:center;padding:25px;color:#aaa}
+footer strong{color:#e6ae37}
+.whatsapp{position:fixed;bottom:20px;right:15px;background:#20b85a;color:white;padding:13px 18px;border-radius:30px;text-decoration:none;font-weight:bold}
+@media(max-width:500px){.hero h1{font-size:31px}nav a{display:inline-block;margin:5px}}
 </style>
 </head>
 <body>
-
 <header>
 <div class="logo">AYT <span>METAL</span></div>
 <p>METALİN SANATA DÖNÜŞTÜĞÜ ADRES</p>
 </header>
-
 <nav>
 <a href="#anasayfa">Ana Sayfa</a>
 <a href="#hizmetler">Hizmetlerimiz</a>
+<a href="#bolgeler">Hizmet Bölgeleri</a>
 <a href="#hakkimizda">Hakkımızda</a>
 <a href="#iletisim">İletişim</a>
 </nav>
-
 <div class="hero" id="anasayfa">
-<h1>GÜÇLÜ METAL, SAĞLAM İŞÇİLİK!</h1>
-<p>Demir doğrama, ferforje ve çelik uygulamalarında kaliteli çözümler.</p>
-<a class="btn" href="https://wa.me/905529355541">HEMEN İLETİŞİME GEÇ</a>
+<h1>GÜÇLÜ METAL<br>SAĞLAM İŞÇİLİK!</h1>
+<p>Demir doğrama, ferforje ve çelik uygulamalarında kaliteli ve sağlam çözümler.</p>
+<a class="btn" href="https://wa.me/905529355541">WHATSAPP İLE ULAŞIN</a>
 </div>
-
 <section id="hizmetler">
 <h2>HİZMETLERİMİZ</h2>
 <div class="services">
-
-<div class="service">
-<h3>Lazer Kapı</h3>
-<p>Modern ve şık lazer kesim kapı sistemleri.</p>
-</div>
-
-<div class="service">
-<h3>Ferforje Kapı</h3>
-<p>Estetik ve dayanıklı ferforje uygulamaları.</p>
-</div>
-
-<div class="service">
-<h3>Sundurma</h3>
-<p>Sağlam ve kullanışlı sundurma çözümleri.</p>
-</div>
-
-<div class="service">
-<h3>Bungalov</h3>
-<p>Metal konstrüksiyon ve bungalov uygulamaları.</p>
-</div>
-
-<div class="service">
-<h3>Çim Çit</h3>
-<p>Bahçe ve çevre düzenlemesi için çim çit.</p>
-</div>
-
-<div class="service">
-<h3>Panel Çit</h3>
-<p>Güvenli ve dayanıklı panel çit sistemleri.</p>
-</div>
-
-<div class="service">
-<h3>Panjur Çit</h3>
-<p>Modern panjur çit uygulamaları.</p>
-</div>
-
-<div class="service">
-<h3>Çelik İşleri</h3>
-<p>Sağlam metal ve çelik uygulamaları.</p>
-</div>
-
+<div class="service"><h3>Lazer Kapı</h3><p>Modern ve şık lazer kesim kapılar.</p></div>
+<div class="service"><h3>Ferforje Kapı</h3><p>Estetik ve dayanıklı ferforje uygulamaları.</p></div>
+<div class="service"><h3>Sundurma</h3><p>Sağlam ve kullanışlı sundurma sistemleri.</p></div>
+<div class="service"><h3>Bungalov</h3><p>Metal konstrüksiyon ve bungalov uygulamaları.</p></div>
+<div class="service"><h3>Çim Çit</h3><p>Bahçe ve çevre düzenlemesi çözümleri.</p></div>
+<div class="service"><h3>Panel Çit</h3><p>Dayanıklı panel çit sistemleri.</p></div>
+<div class="service"><h3>Panjur Çit</h3><p>Modern panjur çit uygulamaları.</p></div>
+<div class="service"><h3>Çelik İşleri</h3><p>Sağlam metal ve çelik uygulamaları.</p></div>
 </div>
 </section>
-
+<section class="regions" id="bolgeler">
+<h2>HİZMET BÖLGELERİMİZ</h2>
+<div>SAKARYA</div>
+<div>KOCAELİ</div>
+<p style="margin-top:20px">Sakarya ve Kocaeli'nin tüm ilçelerine hizmet veriyoruz.</p>
+</section>
 <section class="about" id="hakkimizda">
 <h2>HAKKIMIZDA</h2>
-<p>
-AYT METAL olarak demir doğrama, ferforje, çelik ve metal uygulamalarında
-kaliteli işçilik ve sağlam çözümler sunuyoruz.
-Metal işçiliğini sanata dönüştürüyoruz.
-</p>
+<p>AYT METAL olarak demir doğrama, ferforje, çelik ve metal uygulamalarında kaliteli işçilik ve sağlam çözümler sunuyoruz. Metalin sanata dönüştüğü adres!</p>
 </section>
-
 <section class="contact" id="iletisim">
-<h2>BİZE ULAŞIN</h2>
+<h2>İLETİŞİM</h2>
 <p><strong>AYT METAL</strong></p>
-<p>Sakarya / Geyve</p>
+<p>Sakarya ve Kocaeli</p>
 <p>Telefon: 0552 935 55 41</p>
-<br>
 <a class="btn" href="tel:05529355541">TELEFON ET</a>
+<a class="btn" href="https://wa.me/905529355541">WHATSAPP</a>
 </section>
-
 <footer>
-<p><strong>AYT METAL</strong></p>
+<strong>AYT METAL</strong>
 <p>Metalin sanata dönüştüğü adres.</p>
-<p>© 2026 AYT METAL - Tüm hakları saklıdır.</p>
+<p>© 2026 AYT METAL</p>
 </footer>
-
 <a class="whatsapp" href="https://wa.me/905529355541">WhatsApp</a>
-
 </body>
 </html>

@@ -5,54 +5,130 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AYT METAL | Sakarya Geyve</title>
-<meta name="description" content="AYT METAL Sakarya Geyve demir doğrama, ferforje, çelik, lazer kapı, sundurma ve çit sistemleri.">
+<meta name="description" content="AYT METAL Sakarya Geyve. Demir doğrama, ferforje, lazer kapı, çelik ve çit sistemleri.">
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#111;color:white;font-family:Arial,sans-serif}
-header{background:#080808;padding:25px 15px;text-align:center;border-bottom:3px solid #d49a25}
-h1{font-size:42px;color:#e4a72e;margin:10px}
-header p{color:#ccc}
-.hero{padding:85px 20px;text-align:center;background:linear-gradient(120deg,#171717,#383838)}
-.hero h2{font-size:35px;color:#e5aa35}
-.hero p{font-size:19px}
-.btn{display:inline-block;background:#d99c27;color:#111;padding:15px 25px;text-decoration:none;font-weight:bold;border-radius:5px;margin:10px}
-section{padding:40px 20px;text-align:center}
-h2{color:#e5aa35}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;max-width:1000px;margin:auto}
-.service{background:#242424;padding:25px;border:1px solid #555;border-radius:8px;font-size:19px}
-footer{background:#080808;padding:30px;text-align:center;color:#ccc}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#111;color:#fff;line-height:1.6}
+header{background:#080808;padding:20px;text-align:center;border-bottom:3px solid #d89b24}
+.logo{font-size:34px;font-weight:900;letter-spacing:3px;color:#e5a72e}
+.logo span{color:white}
+nav{padding:12px;text-align:center;background:#191919}
+nav a{color:white;text-decoration:none;margin:0 10px;font-size:14px}
+.hero{padding:85px 20px;text-align:center;background:linear-gradient(120deg,#111,#343434)}
+.hero h1{font-size:42px;color:#e5a72e;margin-bottom:15px}
+.hero p{font-size:19px;margin-bottom:25px}
+.btn{display:inline-block;background:#d99b27;color:#111;padding:13px 25px;text-decoration:none;font-weight:bold;border-radius:5px}
+section{padding:55px 20px;text-align:center}
+h2{font-size:29px;color:#e5a72e;margin-bottom:25px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1000px;margin:auto}
+.service{background:#242424;padding:28px 15px;border-bottom:3px solid #d99b27;border-radius:6px}
+.service h3{font-size:20px;margin-bottom:8px}
+.service p{color:#ccc;font-size:14px}
+.about{background:#1b1b1b}
+.about p{max-width:750px;margin:auto;color:#ddd;font-size:17px}
+.contact{background:#292929}
+.contact p{margin:10px;font-size:17px}
+footer{background:#080808;text-align:center;padding:22px;color:#aaa}
+footer strong{color:#e5a72e}
+.whatsapp{position:fixed;bottom:20px;right:18px;background:#20b85a;color:white;padding:13px 18px;border-radius:30px;text-decoration:none;font-weight:bold}
+@media(max-width:500px){
+.hero h1{font-size:32px}
+nav a{margin:0 5px;font-size:12px}
+}
 </style>
 </head>
 <body>
+
 <header>
-<h1>AYT METAL</h1>
+<div class="logo">AYT <span>METAL</span></div>
 <p>METALİN SANATA DÖNÜŞTÜĞÜ ADRES</p>
 </header>
-<div class="hero">
-<h2>GÜÇLÜ İŞÇİLİK, SAĞLAM YAPILAR!</h2>
-<p>Demir doğrama • Ferforje • Çelik</p>
-<p>Sakarya / Geyve</p>
-<a class="btn" href="tel:05529355541">HEMEN ARA</a>
+
+<nav>
+<a href="#anasayfa">Ana Sayfa</a>
+<a href="#hizmetler">Hizmetlerimiz</a>
+<a href="#hakkimizda">Hakkımızda</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+
+<div class="hero" id="anasayfa">
+<h1>GÜÇLÜ METAL, SAĞLAM İŞÇİLİK!</h1>
+<p>Demir doğrama, ferforje ve çelik uygulamalarında kaliteli çözümler.</p>
+<a class="btn" href="https://wa.me/905529355541">HEMEN İLETİŞİME GEÇ</a>
 </div>
-<section>
+
+<section id="hizmetler">
 <h2>HİZMETLERİMİZ</h2>
 <div class="services">
-<div class="service">Lazer Kapı</div>
-<div class="service">Ferforje Kapı</div>
-<div class="service">Sundurma</div>
-<div class="service">Bungalov</div>
-<div class="service">Çim Çit</div>
-<div class="service">Panel Çit</div>
-<div class="service">Panjur Çit</div>
+
+<div class="service">
+<h3>Lazer Kapı</h3>
+<p>Modern ve şık lazer kesim kapı sistemleri.</p>
+</div>
+
+<div class="service">
+<h3>Ferforje Kapı</h3>
+<p>Estetik ve dayanıklı ferforje uygulamaları.</p>
+</div>
+
+<div class="service">
+<h3>Sundurma</h3>
+<p>Sağlam ve kullanışlı sundurma çözümleri.</p>
+</div>
+
+<div class="service">
+<h3>Bungalov</h3>
+<p>Metal konstrüksiyon ve bungalov uygulamaları.</p>
+</div>
+
+<div class="service">
+<h3>Çim Çit</h3>
+<p>Bahçe ve çevre düzenlemesi için çim çit.</p>
+</div>
+
+<div class="service">
+<h3>Panel Çit</h3>
+<p>Güvenli ve dayanıklı panel çit sistemleri.</p>
+</div>
+
+<div class="service">
+<h3>Panjur Çit</h3>
+<p>Modern panjur çit uygulamaları.</p>
+</div>
+
+<div class="service">
+<h3>Çelik İşleri</h3>
+<p>Sağlam metal ve çelik uygulamaları.</p>
+</div>
+
 </div>
 </section>
-<section>
-<h2>BİZİMLE İLETİŞİME GEÇİN</h2>
-<p>AYT METAL – Sakarya / Geyve</p>
-<p>Telefon: 0552 935 55 41</p>
-<a class="btn" href="tel:05529355541">ŞİMDİ ARA</a>
-<a class="btn" href="https://wa.me/905529355541">WHATSAPP</a>
+
+<section class="about" id="hakkimizda">
+<h2>HAKKIMIZDA</h2>
+<p>
+AYT METAL olarak demir doğrama, ferforje, çelik ve metal uygulamalarında
+kaliteli işçilik ve sağlam çözümler sunuyoruz.
+Metal işçiliğini sanata dönüştürüyoruz.
+</p>
 </section>
-<footer>© 2026 AYT METAL – Tüm hakları saklıdır.</footer>
+
+<section class="contact" id="iletisim">
+<h2>BİZE ULAŞIN</h2>
+<p><strong>AYT METAL</strong></p>
+<p>Sakarya / Geyve</p>
+<p>Telefon: 0552 935 55 41</p>
+<br>
+<a class="btn" href="tel:05529355541">TELEFON ET</a>
+</section>
+
+<footer>
+<p><strong>AYT METAL</strong></p>
+<p>Metalin sanata dönüştüğü adres.</p>
+<p>© 2026 AYT METAL - Tüm hakları saklıdır.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/905529355541">WhatsApp</a>
+
 </body>
 </html>
